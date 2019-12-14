@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ImprimindoVariaveis",
+      "request": "launch",
+      "mainClass": "app.ImprimindoVariaveis",
+      "projectName": "HelloJava"
+    }
+  ]
+}
