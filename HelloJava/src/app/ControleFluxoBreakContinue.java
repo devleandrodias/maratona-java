@@ -12,7 +12,13 @@ public class ControleFluxoBreakContinue {
       double valorParcela = (valorTotal / quantidadeParcelas);
 
       if (valorParcela < 1000)
-        continue; // Ele volta para o começo da operação
+        continue;
+
+      /**
+       * Ele volta para o começo da operação do for e não será executado tudo o que
+       * tiver abaixo dele, não seroa impresso no console enquanto a consição a cima
+       * não for satisfeita
+       */
 
       System.out.println("Parcela " + quantidadeParcelas + " R$" + valorParcela);
     }
