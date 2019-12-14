@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ExercicioControleFluxo",
+      "request": "launch",
+      "mainClass": "app.ExercicioControleFluxo",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - OperadorTernarioTabelaVerdade",
+      "request": "launch",
+      "mainClass": "app.OperadorTernarioTabelaVerdade",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ControleFluxoUm",
       "request": "launch",
       "mainClass": "app.ControleFluxoUm",
