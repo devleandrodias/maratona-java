@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TiposPrimitivos",
+      "request": "launch",
+      "mainClass": "app.TiposPrimitivos",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - HelloJava",
+      "request": "launch",
+      "mainClass": "app.HelloJava",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ImprimindoVariaveis",
       "request": "launch",
       "mainClass": "app.ImprimindoVariaveis",
