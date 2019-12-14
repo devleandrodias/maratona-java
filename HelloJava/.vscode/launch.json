@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - OperadoresAtribuicao",
+      "request": "launch",
+      "mainClass": "app.OperadoresAtribuicao",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - OperadoresLogicos",
       "request": "launch",
       "mainClass": "app.OperadoresLogicos",
