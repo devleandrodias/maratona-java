@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - OperadoresComparacao",
+      "request": "launch",
+      "mainClass": "app.OperadoresComparacao",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - OperadoresJava",
       "request": "launch",
       "mainClass": "app.OperadoresJava",
