@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - OperadoresJava",
+      "request": "launch",
+      "mainClass": "app.OperadoresJava",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SegundoDesafioLeituraVariaveis",
       "request": "launch",
       "mainClass": "app.SegundoDesafioLeituraVariaveis",
