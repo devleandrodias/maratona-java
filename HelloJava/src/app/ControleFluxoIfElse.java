@@ -3,7 +3,7 @@ package app;
 /**
  * ControleFluxoUm
  */
-public class ControleFluxoUm {
+public class ControleFluxoIfElse {
 
   public static void main(String[] args) {
 

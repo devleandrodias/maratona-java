@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ControleFluxoBreakContinue",
+      "request": "launch",
+      "mainClass": "app.ControleFluxoBreakContinue",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ExercicioWhileDoWhilefor",
       "request": "launch",
       "mainClass": "app.ExercicioWhileDoWhilefor",
