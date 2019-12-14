@@ -17,14 +17,17 @@ public class OperadoresJava {
     System.out.println("Soma é: " + soma); // Aqui o valor já vem pronto
 
     // Divisão (/). Se você utilizar variável inteira o valor vem inteiro
-    System.out.println("Divisão de " + numero1 + " / " + numero2 + " = " + (numero1 / numero2)); // Por mais que o valor
-                                                                                                 // real seja 0.5
+    System.out.println("Divisão de " + numero1 + " / " + numero2 + " = " + (numero1 / numero2));
+    // Por mais que o valor real seja 0.5
+
+    System.out.println("Resto da divisão de " + numero1 + " por 2 é: " + (numero1 % 2));
   }
 }
 
 // Operadores Unários
 // ++ incremental;
 // -- decremental;
+// % -- resto da divisão
 // + adição;
 // - subtração;
 // * - multiplicação;
