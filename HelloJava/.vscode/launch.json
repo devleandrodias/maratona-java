@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DesafioLeituraVariaveis",
+      "request": "launch",
+      "mainClass": "app.DesafioLeituraVariaveis",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TiposPrimitivos",
       "request": "launch",
       "mainClass": "app.TiposPrimitivos",
