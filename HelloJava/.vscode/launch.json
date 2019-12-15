@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ContinuandoArray",
+      "request": "launch",
+      "mainClass": "app.ContinuandoArray",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ArraysSimples",
       "request": "launch",
       "mainClass": "app.ArraysSimples",
