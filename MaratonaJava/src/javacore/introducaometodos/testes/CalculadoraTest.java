@@ -17,5 +17,9 @@ public class CalculadoraTest {
     calculadora.multiplicaValorPorDois(25);
 
     System.out.println(calculadora.retornaSomaNumeroMaisDez(15));
+
+    System.out.println(calculadora.divideDoisNumero(10, 10));
+
+    calculadora.imprimeDoisNumerosDivididos(10, 0);
   }
 }

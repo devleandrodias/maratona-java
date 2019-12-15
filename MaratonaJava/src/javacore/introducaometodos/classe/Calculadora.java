@@ -43,4 +43,34 @@ public class Calculadora {
   public int retornaSomaNumeroMaisDez(int num) {
     return num + 10;
   }
+
+  /**
+   * Método que divide dois números
+   * 
+   * @param num1 - Número 1
+   * @param num2 - Número 2
+   * @return - Retorna um valor double
+   */
+  public double divideDoisNumero(double num1, double num2) {
+    if (num2 != 0) {
+      return num1 / num2;
+    }
+
+    return 0;
+  }
+
+  /**
+   * Método que imprime dois números divididos
+   * 
+   * @param num1 - Núemro 1
+   * @param num2 - Número 2
+   */
+  public void imprimeDoisNumerosDivididos(int num1, int num2) {
+    if (num2 != 0) {
+      System.out.println(num1 / num2);
+      return;
+    }
+
+    System.out.println("Não é possível dividir por zero.");
+  }
 }
