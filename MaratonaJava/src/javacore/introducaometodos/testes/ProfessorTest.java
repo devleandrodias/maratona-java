@@ -21,10 +21,10 @@ public class ProfessorTest {
     professorSubstituto.rg = "14.652.235-X";
     professorSubstituto.matricula = "WG5531422";
 
-    professorTitular.imprimeProfessor(professorTitular);
+    professorTitular.imprimeProfessor();
 
     System.out.println("===================================");
 
-    professorSubstituto.imprimeProfessor(professorSubstituto);
+    professorSubstituto.imprimeProfessor();
   }
 }

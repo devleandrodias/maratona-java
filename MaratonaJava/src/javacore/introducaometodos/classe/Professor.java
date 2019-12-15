@@ -10,14 +10,14 @@ public class Professor {
 
   /**
    * Método que imprime um professor
-   * 
-   * @param professor - Váriavel de referência de Professor
    */
-  public void imprimeProfessor(Professor professor) {
+  public void imprimeProfessor() {
 
-    System.out.println(professor.cpf);
-    System.out.println(professor.nome);
-    System.out.println(professor.rg);
-    System.out.println(professor.matricula);
+    System.out.println(this.cpf);
+    System.out.println(this.nome);
+    System.out.println(this.rg);
+    System.out.println(this.matricula);
   }
 }
+
+// O this é usado para pegar os valores do próprio objeto que foi instaciado
