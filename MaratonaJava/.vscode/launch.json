@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CarroTest",
+      "request": "launch",
+      "mainClass": "javacore.introducaoclasses.testes.CarroTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - EstudanteTest",
       "request": "launch",
       "mainClass": "orientacaoobjetos.introducaoclassestest.EstudanteTest",

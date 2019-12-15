@@ -1,4 +1,4 @@
-package orientacaoobjetos.introducaoclasses;
+package javacore.introducaoclasses.classe;
 
 /**
  * Todas as classes tem duas características Atributos e Comportamento.
