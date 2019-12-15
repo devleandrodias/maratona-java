@@ -9,7 +9,6 @@ public class CalculadoraTest {
 
   public static void main(String[] args) {
     Calculadora calculadora = new Calculadora();
-    int retornoFuncao;
 
     calculadora.somaDoisNumeros(1, 4);
 
@@ -17,8 +16,6 @@ public class CalculadoraTest {
 
     calculadora.multiplicaValorPorDois(25);
 
-    retornoFuncao = calculadora.retornaSomaNumeroMaisDez(15);
-
-    System.out.println(retornoFuncao);
+    System.out.println(calculadora.retornaSomaNumeroMaisDez(15));
   }
 }
