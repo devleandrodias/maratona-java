@@ -73,4 +73,19 @@ public class Calculadora {
 
     System.out.println("Não é possível dividir por zero.");
   }
+
+  /**
+   * Método que altera dois números
+   * 
+   * @param num1 - Número 1
+   * @param num2 - Número 2
+   */
+  public void alteraDoisNuemro(int num1, int num2) {
+    num1 = 30;
+    num2 = 40;
+
+    System.out.println("Dentro de alterando dois números");
+    System.out.println("num1: " + num1);
+    System.out.println("num2: " + num2);
+  }
 }
