@@ -21,5 +21,11 @@ public class CalculadoraTest {
     System.out.println(calculadora.divideDoisNumero(10, 10));
 
     calculadora.imprimeDoisNumerosDivididos(10, 0);
+
+    int[] numeros = { 1, 12, 14, 235 };
+
+    calculadora.somaArray(numeros);
+
+    calculadora.somaVarArgs(1, 2, 234, 235, 2);
   }
 }

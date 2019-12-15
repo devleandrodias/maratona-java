@@ -88,4 +88,35 @@ public class Calculadora {
     System.out.println("num1: " + num1);
     System.out.println("num2: " + num2);
   }
+
+  /**
+   * Método que soma diversos números
+   * 
+   * @param numeros - Array de números
+   */
+  public void somaArray(int[] numeros) {
+    int soma = 0;
+
+    for (int aux : numeros) {
+      soma += aux;
+    }
+
+    System.out.println(soma);
+  }
+
+  /**
+   * Método VarArgs
+   * 
+   * @param numeros - VarArgs (Por baixo dos panos vai transformar isso em um
+   *                array)
+   */
+  public void somaVarArgs(int... numeros) {
+    int soma = 0;
+
+    for (int aux : numeros) {
+      soma += aux;
+    }
+
+    System.out.println(soma);
+  }
 }
