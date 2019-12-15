@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - EstudanteTest",
+      "request": "launch",
+      "mainClass": "orientacaoobjetos.introducaoclassestest.EstudanteTest",
+      "projectName": "MaratonaJava"
+    }
+  ]
+}
