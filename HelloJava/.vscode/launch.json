@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ArraysMultidimensionais",
+      "request": "launch",
+      "mainClass": "app.ArraysMultidimensionais",
+      "projectName": "HelloJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MaisArrays",
       "request": "launch",
       "mainClass": "app.MaisArrays",
