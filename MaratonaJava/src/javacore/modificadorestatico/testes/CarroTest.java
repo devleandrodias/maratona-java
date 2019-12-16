@@ -26,7 +26,7 @@ public class CarroTest {
      * Alterou para todos a velocidade limite para 220.
      */
 
-    Carro.velocidadeLimite = 220;
+    Carro.setVelocidadeLimite(220);
 
     carroUm.imprimeCarro();
     carroDoi.imprimeCarro();

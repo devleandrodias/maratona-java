@@ -4,6 +4,13 @@
       "type": "java",
       "name": "CodeLens (Launch) - CarroTest",
       "request": "launch",
+      "mainClass": "javacore.modificadorestatico.testes.CarroTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CarroTest",
+      "request": "launch",
       "mainClass": "javacore.modificadorestatico.classe.testes.CarroTest",
       "projectName": "MaratonaJava"
     },
