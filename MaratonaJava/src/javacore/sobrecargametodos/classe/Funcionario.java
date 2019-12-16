@@ -13,11 +13,23 @@ public class Funcionario {
     this.salario = salario;
   }
 
-  // Métodos de sobrecarga (Overload), Mesmo nome mas quantidade de parêmtros é
-  // diferente
+  // Construtor nunca tem retorno (Nem void), ele fica ausente
+  public Funcionario() {
+
+  }
+
+  public Funcionario(String nome, String cpf, double salario, String rg) {
+    this.nome = nome;
+    this.cpf = cpf;
+    this.salario = salario;
+    this.rg = rg;
+  }
+
+  // Métodos de sobrecarga (Overload), Mesmo nome mas qtd de parêmtros é diferente
   public void init(String nome, String cpf, double salario, String rg) {
     init(nome, cpf, salario);
     this.rg = rg;
+
   }
 
   public void imprimeFuncionario() {
