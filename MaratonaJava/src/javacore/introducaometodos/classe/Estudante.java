@@ -8,9 +8,9 @@ package javacore.introducaometodos.classe;
  * média seja maior que 6 imprimir aprovado se não reprovado
  */
 public class Estudante {
-  public String nome;
-  public int idade;
-  public double[] notas;
+  private String nome;
+  private int idade;
+  private double[] notas;
 
   /**
    * Calcular média do aluno
@@ -36,5 +36,39 @@ public class Estudante {
         "A média do aluno: " + this.nome + " de idade " + this.idade + " anos." + " Teve uma média de:  " + media);
     System.out.println("E o aluno está: " + status);
 
+  }
+
+  /**
+   * Métodos de Acesso(Getter; Setter;) Emcapsulam os atributos oferecendo mais
+   * proteção dos dados que podem ser setados e obtidos
+   */
+
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
+
+  public String getNome() {
+    return this.nome;
+  }
+
+  public void setIdade(int idade) {
+    if (idade <= 0) {
+      System.out.println("Não pode atribuir idade 0 ou negativa para o aluno.");
+      return;
+    }
+
+    this.idade = idade;
+  }
+
+  public int getIdade() {
+    return this.idade;
+  }
+
+  public void setNotas(double[] notas) {
+    this.notas = notas;
+  }
+
+  public double[] getNotas() {
+    return this.notas;
   }
 }
