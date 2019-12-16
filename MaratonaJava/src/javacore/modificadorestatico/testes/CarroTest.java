@@ -1,4 +1,4 @@
-package javacore.modificadorestatico.classe.testes;
+package javacore.modificadorestatico.testes;
 
 import javacore.modificadorestatico.classe.Carro;
 
