@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - EstudanteTest",
+      "request": "launch",
+      "mainClass": "javacore.sobrecargacontrutores.testes.EstudanteTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - FuncionarioTest",
       "request": "launch",
       "mainClass": "javacore.sobrecargametodos.testes.FuncionarioTest",
