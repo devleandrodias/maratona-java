@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - FuncionarioTest",
+      "request": "launch",
+      "mainClass": "javacore.sobrecargametodos.testes.FuncionarioTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ImprimindoVariaveis",
+      "request": "launch",
+      "mainClass": "introducao.ImprimindoVariaveis",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - EstudanteTest",
       "request": "launch",
       "mainClass": "javacore.introducaometodos.testes.EstudanteTest",
