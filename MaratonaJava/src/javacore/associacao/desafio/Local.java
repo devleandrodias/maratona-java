@@ -5,5 +5,34 @@ package javacore.associacao.desafio;
  */
 public class Local {
   private String rua, bairro;
-  private Seminario[] seminarios;
+
+  public Local() {
+
+  }
+
+  public Local(String rua, String bairro) {
+    this.rua = rua;
+    this.bairro = bairro;
+  }
+
+  public void print() {
+    System.out.println("Rua: " + this.rua);
+    System.out.println("Bairro: " + this.bairro);
+  }
+
+  public void setRua(String rua) {
+    this.rua = rua;
+  }
+
+  public String getRua() {
+    return rua;
+  }
+
+  public void setBairro(String bairro) {
+    this.bairro = bairro;
+  }
+
+  public String getBairro() {
+    return bairro;
+  }
 }

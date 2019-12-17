@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - AssociacaoTest",
+      "request": "launch",
+      "mainClass": "javacore.associacao.testes.AssociacaoTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ClienteTest",
       "request": "launch",
       "mainClass": "javacore.modificadorestatico.testes.ClienteTest",
