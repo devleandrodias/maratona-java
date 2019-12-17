@@ -6,6 +6,6 @@ package javacore.associacao.classe;
 public class Pessoa {
 
   // Existe um departamento dentro da classe pessoa.
-  private Departamento departamento;
-  private Endereco endereco;
+  // private Departamento departamento;
+  // private Endereco endereco;
 }
