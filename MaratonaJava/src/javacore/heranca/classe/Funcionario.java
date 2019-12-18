@@ -11,6 +11,11 @@ package javacore.heranca.classe;
  */
 public class Funcionario extends Pessoa {
 
+  // Construtor obrigatório em Funcionário por que herda de Pessoa
+  public Funcionario(String nome) {
+    super(nome); // Deve ser primeira linha do construtor;
+  }
+
   private double salario;
 
   public void imprime() {

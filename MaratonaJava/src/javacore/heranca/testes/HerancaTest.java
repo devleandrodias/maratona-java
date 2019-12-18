@@ -11,7 +11,7 @@ import javacore.heranca.classe.Pessoa;
 public class HerancaTest {
 
   public static void main(String[] args) {
-    Pessoa pessoa = new Pessoa();
+    Pessoa pessoa = new Pessoa("Ademilson");
     Endereco endereco = new Endereco();
 
     pessoa.setNome("Leandro Dias");
@@ -24,7 +24,7 @@ public class HerancaTest {
 
     pessoa.imprime();
 
-    Funcionario funcionario = new Funcionario();
+    Funcionario funcionario = new Funcionario("Thaísa Castro");
 
     funcionario.setSalario(13417.04);
 
