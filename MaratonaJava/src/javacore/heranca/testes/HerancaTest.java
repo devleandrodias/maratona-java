@@ -37,5 +37,6 @@ public class HerancaTest {
     funcionario.setEndereco(endereco);
 
     funcionario.imprime();
+    funcionario.imprimeReciboPagamento();
   }
 }

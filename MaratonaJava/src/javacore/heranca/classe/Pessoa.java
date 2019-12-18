@@ -1,12 +1,13 @@
 package javacore.heranca.classe;
 
 /**
- * Pessoa
+ * O modificador de acesso protected permite a visibilidade dos métodos apenas
+ * para classes que serão herdeiras e pela própria classe.
  */
 public class Pessoa {
 
-  private String nome, cpf;
-  private Endereco endereco;
+  protected String nome, cpf;
+  protected Endereco endereco;
 
   public void imprime() {
     System.out.println("Contribuinte: " + this.nome + ", inscrito pelo CPF de nº " + this.cpf
