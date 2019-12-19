@@ -6,7 +6,12 @@ package javacore.enums.classe;
 public enum TipoCliente {
 
   // As constantes da enumeração precisam ser a primeira da linha.
-  PESSOA_FISICA(1, "Pessoa Física"), PESSOA_JURIDICA(2, "Pessoa Júridica");
+  PESSOA_FISICA(1, "Pessoa Física"), PESSOA_JURIDICA(2, "Pessoa Júridica") {
+    // constant specifc class body (certificação)
+    public String getId() {
+      return "B";
+    }
+  };
 
   private int tipo;
   private String nome;
@@ -28,4 +33,9 @@ public enum TipoCliente {
     return nome;
   }
 
+  // constant specifc class body (certificação)
+
+  public String getId() {
+    return "A";
+  }
 }
