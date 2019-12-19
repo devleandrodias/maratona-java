@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - FunctionarioTest",
+      "request": "launch",
+      "mainClass": "javacore.classesabstratas.testes.FunctionarioTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ClienteTest",
       "request": "launch",
       "mainClass": "javacore.enums.testes.ClienteTest",
