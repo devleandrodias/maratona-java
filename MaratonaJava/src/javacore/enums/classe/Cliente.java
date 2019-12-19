@@ -5,17 +5,27 @@ package javacore.enums.classe;
  */
 public class Cliente {
 
+  public enum TipoPagamento {
+    AVISTA, APRAZO
+  }
+
   private String nome;
   private TipoCliente tipo;
+  private TipoPagamento tipoPagamento;
 
-  public Cliente(String nome, TipoCliente tipo) {
+  public Cliente(String nome, TipoCliente tipo, TipoPagamento tipoPagamento) {
     this.nome = nome;
     this.tipo = tipo;
+    this.tipoPagamento = tipoPagamento;
   }
 
   @Override
   public String toString() {
-    return "Nome: " + this.nome + ", " + this.tipo;
+    return "Nome: " + this.nome + ", " + this.tipo.getNome() + ", forma de pagamento: " + this.tipoPagamento;
+  }
+
+  public TipoPagamento getTipoPagamento() {
+    return tipoPagamento;
   }
 
   public String getNome() {
