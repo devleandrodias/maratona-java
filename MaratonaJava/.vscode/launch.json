@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - PessoaTest",
+      "request": "launch",
+      "mainClass": "javacore.sobrescrita.testes.PessoaTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - HerancaTest",
       "request": "launch",
       "mainClass": "javacore.heranca.testes.HerancaTest",
