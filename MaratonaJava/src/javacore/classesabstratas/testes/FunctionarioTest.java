@@ -15,7 +15,10 @@ public class FunctionarioTest {
     gerente.calculaSalario();
     vendedor.calculaSalario();
 
+    System.out.println("-------------------------------------------");
     System.out.println(vendedor);
+    System.out.println("-------------------------------------------");
     System.out.println(gerente);
+    System.out.println("-------------------------------------------");
   }
 }

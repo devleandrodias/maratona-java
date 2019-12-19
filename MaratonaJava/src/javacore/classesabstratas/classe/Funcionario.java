@@ -4,10 +4,18 @@ package javacore.classesabstratas.classe;
  * Classes abstratas não podem ser instânciadas, só poderá ser unicamente
  * extendida. E possui caracteristicas que serão usadas pela subclasse.
  */
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa {
 
-  protected String nome, clt;
+  protected String clt;
   protected double salario;
+
+  /**
+   * Métodos abstratos devem ser implmentados na primeira classe concreta que não
+   * foram implementados anteriormente;
+   * 
+   * Casos imprimir for implmentado em Funcionário, Gerente e Vendedor não
+   * precisam implementa-lo.
+   */
 
   public Funcionario() {
 

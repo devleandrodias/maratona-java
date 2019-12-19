@@ -28,4 +28,11 @@ public class Vendedor extends Funcionario {
     this.totalVendas = totalVendas;
   }
 
+  // Métodos abstratos devem ser implmentados na primeira classe concreta;
+
+  @Override
+  public void imprime() {
+
+  }
+
 }
