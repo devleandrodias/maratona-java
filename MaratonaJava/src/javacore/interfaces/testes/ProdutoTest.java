@@ -14,5 +14,10 @@ public class ProdutoTest {
     produto.calcularFrete();
 
     System.out.println(produto);
+
+    /**
+     * Não se pode instanciar um interface para gerar um objeto (new). Mas pode-se
+     * gerar apenas gerar sua referência.
+     */
   }
 }

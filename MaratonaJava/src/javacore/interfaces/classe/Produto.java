@@ -20,6 +20,13 @@ public class Produto implements ITributavel, ITransportavel {
     this.preco = preco;
   }
 
+  /**
+   * private > default > protected > public (Importante para certificação)
+   * 
+   * Quando realizamos uma implementação de Override (Sobrescrita) não pode ter
+   * modificador de acesso mais restrito.
+   */
+
   @Override
   public void calcularImposto() {
     precoFinal = ((this.preco + (this.preco * IMPOSTO)) + valorFrete);
