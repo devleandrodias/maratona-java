@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ClienteTest",
+      "request": "launch",
+      "mainClass": "javacore.enums.testes.ClienteTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CarroTest",
       "request": "launch",
       "mainClass": "javacore.modificadorfinal.testes.CarroTest",
