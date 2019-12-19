@@ -13,7 +13,20 @@ public class Pessoa extends Object {
 
   public Pessoa(String nome) {
     super(); // Implicitamente sempre está aqui.
+    System.out.println("Dentro do construtor de pessoa.");
     this.nome = nome;
+  }
+
+  {
+    System.out.println("Bloco de inicialização pessoa 1");
+  }
+
+  {
+    System.out.println("Bloco de inicialização pessoa 2");
+  }
+
+  static {
+    System.out.println("Bloco de inicialização pessoa estático");
   }
 
   public Pessoa(String nome, String cpf) {

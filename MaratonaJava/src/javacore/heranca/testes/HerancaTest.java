@@ -22,9 +22,32 @@ public class HerancaTest {
 
     pessoa.setEndereco(endereco);
 
-    pessoa.imprime();
+    // pessoa.imprime();
 
     Funcionario funcionario = new Funcionario("Thaísa Castro");
+    // Funcionario funcionario2 = new Funcionario("Thaísa Castro");
+
+    // Ordem de inicialização
+
+    /**
+     * 1 - Espaço em memória é alocado para o objeto sendo construido.
+     * 
+     * 2- Cada um dos atributos do objeto é criado e inicializado com os valores
+     * default.
+     * 
+     * 3 - O construtor da da superclasse é chamado.
+     * 
+     * 4 - A inicialização dos atributos via declaração e o código do bloco de
+     * inicialização da superclasse são executados na ordem de procedência.
+     * 
+     * 5 - O código do construtor da superclasse é chamado.
+     * 
+     * 6 - Passo 4 para a subclasse é executado.
+     * 
+     * 7 - O código do construtor da classe é executado.
+     * 
+     * 8 - Os métodos estáticos ão executados apenas uma vez.
+     */
 
     funcionario.setSalario(13417.04);
 
@@ -36,7 +59,7 @@ public class HerancaTest {
 
     funcionario.setEndereco(endereco);
 
-    funcionario.imprime();
-    funcionario.imprimeReciboPagamento();
+    // funcionario.imprime();
+    // funcionario.imprimeReciboPagamento();
   }
 }
