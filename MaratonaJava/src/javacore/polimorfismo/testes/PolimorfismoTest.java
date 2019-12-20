@@ -24,6 +24,8 @@ public class PolimorfismoTest {
      */
 
     relatorio.relatorioPagamentoGenerico(gerente);
+
+    // Isso dá um erro quando executado em tempo de compilação (use o instanceof)
     relatorio.relatorioPagamentoGenerico(vendedor);
 
     // Um funcionário referênciando um gerênte (Um gerênte é um Funcionário);
