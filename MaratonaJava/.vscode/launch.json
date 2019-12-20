@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - PolimorfismoTest",
+      "request": "launch",
+      "mainClass": "javacore.polimorfismo.testes.PolimorfismoTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Polimorfismo",
+      "request": "launch",
+      "mainClass": "javacore.polimorfismo.testes.Polimorfismo",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ProdutoTest",
       "request": "launch",
       "mainClass": "javacore.interfaces.testes.ProdutoTest",
