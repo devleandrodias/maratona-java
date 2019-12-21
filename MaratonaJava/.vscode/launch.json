@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - AssertTest",
+      "request": "launch",
+      "mainClass": "javacore.acertivas.AssertTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CustomExceptionTest",
       "request": "launch",
       "mainClass": "javacore.execoes.customexecption.testes.CustomExceptionTest",
