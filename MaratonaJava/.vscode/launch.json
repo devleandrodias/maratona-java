@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CustomExceptionTest",
+      "request": "launch",
+      "mainClass": "javacore.execoes.customexecption.testes.CustomExceptionTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MultiplesRuntimeExcptionTest",
       "request": "launch",
       "mainClass": "javacore.execoes.runtimeexecption.MultiplesRuntimeExcptionTest",
