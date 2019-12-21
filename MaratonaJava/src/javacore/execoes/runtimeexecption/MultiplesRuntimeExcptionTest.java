@@ -1,5 +1,8 @@
 package javacore.execoes.runtimeexecption;
 
+import java.nio.file.FileSystemNotFoundException;
+import java.sql.SQLException;
+
 /**
  * MultiplesRuntimeExcptionTest
  */
@@ -31,5 +34,18 @@ public class MultiplesRuntimeExcptionTest {
     } finally {
 
     }
+
+    /**
+     * Multi-Catch
+     */
+    try {
+      talvezLanceExecption();
+    } catch (FileSystemNotFoundException | SQLException e) {
+      e.printStackTrace();
+    }
+  }
+
+  private static void talvezLanceExecption() throws SQLException, FileSystemNotFoundException {
+
   }
 }
