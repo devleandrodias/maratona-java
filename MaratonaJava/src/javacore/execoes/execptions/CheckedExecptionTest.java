@@ -45,6 +45,9 @@ public class CheckedExecptionTest {
 
       e.printStackTrace();
       throw e; // Não usamos o new pois já existe o objeto de execção criado
+    } finally {
+
+      System.out.println("Sempre será executado tanto se cair ou não no catch, mesmo se tiver um return");
     }
   }
 }
