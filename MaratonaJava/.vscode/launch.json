@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - RuntimeExecptionTest",
+      "request": "launch",
+      "mainClass": "javacore.execoes.runtimeexecption.RuntimeExecptionTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ErrorTest",
       "request": "launch",
       "mainClass": "javacore.execoes.testes.ErrorTest",
