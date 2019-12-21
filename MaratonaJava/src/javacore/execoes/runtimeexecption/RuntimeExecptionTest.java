@@ -11,6 +11,19 @@ package javacore.execoes.runtimeexecption;
 public class RuntimeExecptionTest {
 
   public static void main(String[] args) {
+    tratamentoExcptions();
+
+    try {
+
+      divisao(10, 0);
+    } catch (RuntimeException e) {
+
+      System.out.println(e.getMessage());
+      e.printStackTrace();
+    }
+  }
+
+  private static void tratamentoExcptions() {
     try {
       // Object object = null;
       // System.out.println(object.toString());
@@ -40,5 +53,15 @@ public class RuntimeExecptionTest {
     }
 
     System.out.println("Por mais que deu várias execções ainda sim código continua a executar.");
+  }
+
+  private static void divisao(double num1, double num2) {
+
+    if (num2 == 0)
+      throw new IllegalArgumentException("Não é possível divisão por zero.");
+
+    double result = (num1 / num2);
+
+    System.out.println(result);
   }
 }
