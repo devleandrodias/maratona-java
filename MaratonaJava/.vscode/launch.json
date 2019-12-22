@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - StringTest",
+      "request": "launch",
+      "mainClass": "javacore.strings.testes.StringTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - AssertTest",
       "request": "launch",
       "mainClass": "javacore.acertivas.AssertTest",
