@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DateFormatTest",
+      "request": "launch",
+      "mainClass": "javacore.datas.DateFormatTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ManipulandoDatas",
       "request": "launch",
       "mainClass": "javacore.datas.ManipulandoDatas",
