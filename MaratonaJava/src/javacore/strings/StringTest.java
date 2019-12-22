@@ -1,4 +1,4 @@
-package javacore.strings.testes;
+package javacore.strings;
 
 /**
  * String no Java são imutáveis

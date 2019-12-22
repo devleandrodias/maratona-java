@@ -1,4 +1,4 @@
-package javacore.strings.testes;
+package javacore.strings;
 
 /**
  * StringPerformanceTest
