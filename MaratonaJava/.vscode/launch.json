@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - NumberFormatTest",
+      "request": "launch",
+      "mainClass": "javacore.datas.NumberFormatTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - LocaleTest",
       "request": "launch",
       "mainClass": "javacore.datas.LocaleTest",
