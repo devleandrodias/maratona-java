@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ManipulandoDatas",
+      "request": "launch",
+      "mainClass": "javacore.datas.ManipulandoDatas",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StringBuilderTest",
       "request": "launch",
       "mainClass": "javacore.strings.testes.StringBuilderTest",
