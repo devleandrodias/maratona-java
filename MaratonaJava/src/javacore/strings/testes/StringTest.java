@@ -30,5 +30,18 @@ public class StringTest {
     String nome3 = new String("Ferdinando"); // Por questões de porformance não usamos dessa forma
 
     System.out.println(nome3);
+
+    String nomeGoku = "Goku";
+    String nomeGokuZuado = "    gOKu ";
+    String quebrandoString = "123456789";
+
+    System.out.println(nomeGoku.charAt(2));
+    System.out.println(nomeGoku.equalsIgnoreCase(nomeGokuZuado));
+    System.out.println(nomeGoku.length());
+    System.out.println(nomeGoku.replace('o', 'a'));
+    System.out.println(nomeGoku.toLowerCase());
+    System.out.println(nomeGoku.toUpperCase());
+    System.out.println(quebrandoString.substring(1, 2)); // Início, Quantidade
+    System.out.println(nomeGokuZuado.trim());
   }
 }
