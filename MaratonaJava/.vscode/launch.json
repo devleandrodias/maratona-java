@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - StringPerformanceTest",
+      "request": "launch",
+      "mainClass": "javacore.strings.testes.StringPerformanceTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StringTest",
       "request": "launch",
       "mainClass": "javacore.strings.testes.StringTest",
