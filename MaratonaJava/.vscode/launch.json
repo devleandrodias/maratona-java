@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - FileTest",
+      "request": "launch",
+      "mainClass": "javacore.inputoutput.FileTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ResourceBundleTest",
       "request": "launch",
       "mainClass": "javacore.resourcebundle.ResourceBundleTest",
