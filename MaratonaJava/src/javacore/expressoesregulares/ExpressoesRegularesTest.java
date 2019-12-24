@@ -29,6 +29,7 @@ public class ExpressoesRegularesTest {
     // | colocar OU
     // $ fim da linha
     // \\. ponto do tipo texto e não caracter coringa
+    // ^ caractere de negação
 
     // Exemplos
 
@@ -44,13 +45,17 @@ public class ExpressoesRegularesTest {
 
     // Exercícios
 
-    String regex = "([\\w\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
-    String emails = "ldbdias@gmail.com, thaisa157@outlook.com, !@#1aaaa@gmail.com, rwking@hotmail.com.br";
+    String regex = "proj([^,])*"; // Começa com proj e tudo que depois disso não tenha vírgula
+    String texto = "proj1.bkp, proj1.java, projfinal.java, proj2.bkp, proj3.java, diagram.uml, carta.txt, foto.jpeg";
+
+    // String regex = "([\\w\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
+    // String emails = "ldbdias@gmail.com, thaisa157@outlook.com,
+    // !@#1aaaa@gmail.com, rwking@hotmail.com.br";
 
     Pattern pattern = Pattern.compile(regex); // Compilar a expressão regular
-    Matcher matcher = pattern.matcher(emails); // Procurar dentro do texto da expressão compilada
+    Matcher matcher = pattern.matcher(texto); // Procurar dentro do texto da expressão compilada
 
-    System.out.println("texto: " + emails);
+    System.out.println("texto: " + texto);
     System.out.println("expressão regular: " + matcher.pattern()); // Expressão usada
     System.out.println(" - posições que o padrão foi encontrado - ");
 
