@@ -20,9 +20,22 @@ public class ExpressoesRegularesTest {
     // \W - tudo o que não for palavra (tudo que não estiver em \w)
     // [] - procure nessa frase apenas (case sensitive)
 
+    // quantificadores falam que você deve procurar por uma ou mais ocorrências
+    // ? 0 ou 1 ocorrência
+    // * 0 ou mais ocorrências
+    // + 1 ou mais ocorrências
+    // {n, m} de n até m ocorrências
+    // () agrupar uma expressão
+    // | colocar OU
+    // $ fim da linha
+
+    // Exemplos
+
+    // maca(rr|c)ão - macarrão, macacão
+
     // int numeroHexa = 0XaFF; // Número hexadecimal
     // String regex = "[abcA-Z]";
-    String regexNumeroHexadecimais = "0[xX][0-9a-fA-F]";
+    String regexNumeroHexadecimais = "0[xX]([0-9a-fA-F])+(\\s|$)";
 
     // String texto = "aba235ab235ba\r35&2ab62ab6#";
     // String texto2 = "cafeBABE";
