@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ScannerTest",
+      "request": "launch",
+      "mainClass": "javacore.expressoesregulares.ScannerTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TokenTest",
+      "request": "launch",
+      "mainClass": "javacore.expressoesregulares.TokenTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ExpressoesRegularesTest",
       "request": "launch",
       "mainClass": "javacore.expressoesregulares.ExpressoesRegularesTest",
