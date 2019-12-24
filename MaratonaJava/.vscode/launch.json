@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ExpressoesRegularesTest",
+      "request": "launch",
+      "mainClass": "javacore.expressoesregulares.ExpressoesRegularesTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SimpleDateFormatTest",
       "request": "launch",
       "mainClass": "javacore.datas.SimpleDateFormatTest",
