@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CriandoPathTest",
+      "request": "launch",
+      "mainClass": "javacore.newio.CriandoPathTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ConsoleTest",
       "request": "launch",
       "mainClass": "javacore.inputoutput.ConsoleTest",
