@@ -1,5 +1,2 @@
-Escrevendo uma mensagem no arquivo 2Escrevendo uma mensagem no arquivo
- pulando de linha escrevendo mais..Escrevendo uma mensagem no arquivo
- pulando de linha escrevendo mais..Escrevendo uma mensagem no arquivo
- pulando de linha escrevendo mais..Escrevendo uma mensagem no arquivo
- pulando de linha escrevendo mais..
+Escrevendo uma mensagem no arquivo
+pulando de linha escrevendo mais..

@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - BufferedTest",
+      "request": "launch",
+      "mainClass": "javacore.inputoutput.BufferedTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - FileWriterReader",
       "request": "launch",
       "mainClass": "javacore.inputoutput.FileWriterReader",
