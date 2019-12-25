@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ConsoleTest",
+      "request": "launch",
+      "mainClass": "javacore.inputoutput.ConsoleTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - FileDiretorioTest",
       "request": "launch",
       "mainClass": "javacore.inputoutput.FileDiretorioTest",
