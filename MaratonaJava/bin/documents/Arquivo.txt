@@ -1,2 +1,0 @@
-Escrevendo uma mensagem no arquivo
-pulando de linha escrevendo mais..
