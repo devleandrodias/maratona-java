@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - NormalizacaoTest",
+      "request": "launch",
+      "mainClass": "javacore.newio.NormalizacaoTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CriandoPathTest",
       "request": "launch",
       "mainClass": "javacore.newio.CriandoPathTest",
