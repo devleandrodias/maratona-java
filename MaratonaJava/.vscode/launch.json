@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - AtributosBasicosTest",
+      "request": "launch",
+      "mainClass": "javacore.newio.AtributosBasicosTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - RelativizarPathTest",
       "request": "launch",
       "mainClass": "javacore.newio.RelativizarPathTest",
