@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - SortedProdutoTest",
+      "request": "launch",
+      "mainClass": "javacore.colecoes.testes.SortedProdutoTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SortedListTest",
+      "request": "launch",
+      "mainClass": "javacore.colecoes.testes.SortedListTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ListCelularTest",
       "request": "launch",
       "mainClass": "javacore.colecoes.testes.ListCelularTest",
