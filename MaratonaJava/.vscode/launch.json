@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - EqualsTest",
+      "request": "launch",
+      "mainClass": "javacore.colecoes.testes.EqualsTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - EqualsTest",
+      "request": "launch",
+      "mainClass": "javacore.colecoes.EqualsTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - AtributosBasicosTest",
       "request": "launch",
       "mainClass": "javacore.newio.AtributosBasicosTest",
