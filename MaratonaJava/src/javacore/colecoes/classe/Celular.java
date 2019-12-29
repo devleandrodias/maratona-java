@@ -41,7 +41,22 @@ public class Celular {
     Celular outroCelular = (Celular) obj;
 
     return IMEI != null && IMEI.equals(outroCelular.getIMEI());
+  }
 
+  /**
+   * Se x.equals(y) == true y.hasCode() == x == x.hasCode()
+   * 
+   * y.hasCode() == x == x.hasCode() não necessáriamente o equals deverá retornar
+   * true
+   * 
+   * x.equas(y) == false não existe hasCode
+   * 
+   * y.hasCode() != x.hasCode(), x.equals(y) deverá retornar false
+   */
+
+  @Override
+  public int hashCode() {
+    return IMEI.hashCode();
   }
 
   public String getNome() {
