@@ -59,6 +59,11 @@ public class Celular {
     return IMEI.hashCode();
   }
 
+  @Override
+  public String toString() {
+    return "Celular: " + this.nome + ", com IMEI: " + this.IMEI;
+  }
+
   public String getNome() {
     return nome;
   }
