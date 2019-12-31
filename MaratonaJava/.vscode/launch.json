@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ConversaoListasArraysTest",
+      "request": "launch",
+      "mainClass": "javacore.colecoes.testes.ConversaoListasArraysTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - BuscaBinaria",
       "request": "launch",
       "mainClass": "javacore.colecoes.testes.BuscaBinaria",
