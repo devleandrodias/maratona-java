@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - BuscaBinaria",
+      "request": "launch",
+      "mainClass": "javacore.colecoes.testes.BuscaBinaria",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SortedProdutoTest",
       "request": "launch",
       "mainClass": "javacore.colecoes.testes.SortedProdutoTest",
