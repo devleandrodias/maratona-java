@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - GenericsTest",
+      "request": "launch",
+      "mainClass": "javacore.generics.test.GenericsTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ConsumidorMapTest",
       "request": "launch",
       "mainClass": "javacore.colecoes.testes.ConsumidorMapTest",
