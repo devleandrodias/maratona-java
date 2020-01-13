@@ -1,0 +1,14 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "agencia",
+      "dialect": "MySQL",
+      "name": "MySQL",
+      "password": "@devLeandroLuizaLabs!#",
+      "port": 3306,
+      "server": "localhost",
+      "username": "root"
+    }
+  ],
+  "java.dependency.syncWithFolderExplorer": true
+}
