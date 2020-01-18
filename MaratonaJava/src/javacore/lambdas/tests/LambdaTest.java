@@ -1,5 +1,7 @@
 package javacore.lambdas.tests;
 
+import java.util.function.Predicate;
+
 import javacore.lambdas.classes.Carro;
 import javacore.lambdas.interfaces.CarroPredicate;
 
@@ -33,7 +35,9 @@ public class LambdaTest {
 
     // Exatamente mesma coisa de cima só q usando lamdas
     CarroPredicate carroPredicateLambda = (Carro carro) -> carro.getCor().equals("Branco");
+    Predicate<Carro> carroPredicateLambdaPredicate = (Carro carro) -> carro.getCor().equals("Branco");
 
     System.out.println(carroPredicateLambda.test(new Carro("Branco", 2020)));
+    System.out.println(carroPredicateLambdaPredicate.test(new Carro("Branco", 2030)));
   }
 }
