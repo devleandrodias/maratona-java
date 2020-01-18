@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - LambdaTest",
+      "request": "launch",
+      "mainClass": "javacore.lambdas.tests.LambdaTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CarroTest",
       "request": "launch",
       "mainClass": "javacore.parametrizacao.tests.CarroTest",
