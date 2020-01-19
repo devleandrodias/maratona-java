@@ -1,4 +1,4 @@
-package javacore.dateTime.test;
+package javacore.datetime.test;
 
 import java.time.Duration;
 import java.time.Instant;

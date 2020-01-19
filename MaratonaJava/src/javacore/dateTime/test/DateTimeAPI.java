@@ -1,4 +1,4 @@
-package javacore.dateTime.test;
+package javacore.datetime.test;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
