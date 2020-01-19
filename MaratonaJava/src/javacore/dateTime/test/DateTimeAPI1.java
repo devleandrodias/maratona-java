@@ -6,9 +6,9 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoField;
 
 /**
- * DateTimeAPI
+ * DateTimeAPI1
  */
-public class DateTimeAPI {
+public class DateTimeAPI1 {
 
   public static void main(String[] args) {
 
