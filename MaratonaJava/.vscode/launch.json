@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DateTimeAPI",
+      "request": "launch",
+      "mainClass": "javacore.dateTime.test.DateTimeAPI",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - InterfaceTest",
       "request": "launch",
       "mainClass": "javacore.defaults.classes.InterfaceTest",
