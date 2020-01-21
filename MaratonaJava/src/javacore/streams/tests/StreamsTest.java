@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import javacore.streams.classe.Pessoa;
@@ -48,6 +47,12 @@ public class StreamsTest {
         .sorted(Comparator.comparing(Pessoa::getNome)).limit(3).map(Pessoa::getNome).collect(Collectors.toList());
 
     System.out.println(nomesStreams);
+
+    List<String> nomesStreamsSkip = pessoas.stream().filter(p -> p.getIdade() < 25)
+        .sorted(Comparator.comparing(Pessoa::getNome)).skip(1).limit(3).map(Pessoa::getNome)
+        .collect(Collectors.toList());
+
+    System.out.println(nomesStreamsSkip);
 
     /**
      * Intermediate: retorna outros streams permitindo encadeação de comandos, não
