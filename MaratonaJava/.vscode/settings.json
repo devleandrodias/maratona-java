@@ -10,5 +10,6 @@
       "username": "root"
     }
   ],
-  "java.dependency.syncWithFolderExplorer": true
+  "java.dependency.syncWithFolderExplorer": true,
+  "java.dependency.packagePresentation": "hierarchical"
 }
