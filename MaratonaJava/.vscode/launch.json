@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - OptionalTest1",
+      "request": "launch",
+      "mainClass": "javacore.optional.test.OptionalTest1",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StreamsTest5",
       "request": "launch",
       "mainClass": "javacore.streams.tests.StreamsTest5",
