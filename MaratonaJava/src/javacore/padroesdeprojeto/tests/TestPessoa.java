@@ -9,7 +9,7 @@ public class TestPessoa {
 
   public static void main(String[] args) {
     Pessoa p = new Pessoa.PessoaBuilder("Leandro").nomeMeio("Bemfica").ultimoNome("Dias").apelido("Leandrinho")
-        .nomePai("Ronaldo").criarPessoa();
+        .nomePai("Ronaldo").build();
 
     System.out.println(p);
   }

@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TestAviaoSingletonTest",
+      "request": "launch",
+      "mainClass": "javacore.padroesdeprojeto.tests.TestAviaoSingletonTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestAviaoSingleton",
+      "request": "launch",
+      "mainClass": "javacore.padroesdeprojeto.tests.TestAviaoSingleton",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TestAviao",
+      "request": "launch",
+      "mainClass": "javacore.padroesdeprojeto.tests.TestAviao",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TestPessoa",
       "request": "launch",
       "mainClass": "javacore.padroesdeprojeto.tests.TestPessoa",
