@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TestPessoa",
+      "request": "launch",
+      "mainClass": "javacore.padroesdeprojeto.tests.TestPessoa",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - OptionalTest2",
       "request": "launch",
       "mainClass": "javacore.optional.test.OptionalTest2",
