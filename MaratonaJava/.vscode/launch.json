@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - WildCardTest",
+      "request": "launch",
+      "mainClass": "javacore.generics.test.WildCardTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TestMoedaFactory",
       "request": "launch",
       "mainClass": "javacore.padroesdeprojeto.tests.TestMoedaFactory",
