@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TestMoedaFactory",
+      "request": "launch",
+      "mainClass": "javacore.padroesdeprojeto.tests.TestMoedaFactory",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TestAviaoSingletonTest",
       "request": "launch",
       "mainClass": "javacore.padroesdeprojeto.tests.TestAviaoSingletonTest",
