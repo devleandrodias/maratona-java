@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MetodoGenericoTest",
+      "request": "launch",
+      "mainClass": "javacore.generics.test.MetodoGenericoTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ClasseGenericaTest",
       "request": "launch",
       "mainClass": "javacore.generics.test.ClasseGenericaTest",
