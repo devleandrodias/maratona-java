@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ClassesLocaisTest",
+      "request": "launch",
+      "mainClass": "javacore.classesinternas.test.ClassesLocaisTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ClassesInternasTest",
       "request": "launch",
       "mainClass": "javacore.classesinternas.test.ClassesInternasTest",
