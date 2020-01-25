@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ClasseGenericaTest",
+      "request": "launch",
+      "mainClass": "javacore.generics.test.ClasseGenericaTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ClasseGenericaTest",
+      "request": "launch",
+      "mainClass": "javacore.generics.classes.ClasseGenericaTest",
+      "projectName": "MaratonaJava"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - WildCardTest",
       "request": "launch",
       "mainClass": "javacore.generics.test.WildCardTest",
